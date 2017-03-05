@@ -10,7 +10,7 @@ import android.view.View;
 import java.util.ArrayList;
 
 /**
- * Created by vv on 14.11.2016.
+ * Created by vv on 14.11.2016.0
  */
 public class GameView extends View {
     public GameView(Context context, AttributeSet attrs) {
