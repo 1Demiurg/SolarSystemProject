@@ -36,16 +36,22 @@ public class TestObj implements Renderable, Updatable {
         this.between=between;
         x = 225;
         y = 275;
+        paint1.setColor(Color.WHITE);
     }
 
 
 
     Paint paint = new Paint();
 
+    Paint paint1= new Paint();
+
+
     @Override
     public void render(Canvas canvas) {
 
         canvas.drawCircle(ox, py,g, paint);
+        paint1.setStyle(Paint.Style.FILL);
+        canvas.drawText(name, ox-20, py, paint1);
 
     }
 
